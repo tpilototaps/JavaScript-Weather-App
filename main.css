@@ -1,0 +1,81 @@
+.main{
+    background: url('https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop') no-repeat center fixed;
+    background-size: cover;
+    background-position: top left;
+    animation: moveit 30s infinite
+}
+  @keyframes moveit {
+    50% {background-position: center;}
+}
+
+.heading{
+    margin: 25px;
+    text-align: center;
+    animation: colorshift 1s infinite;
+}
+.high{
+    background-color: palevioletred;
+    border-radius: 8px;
+    text-align: center
+}
+.low{
+    background-color: skyblue;
+    border-radius: 8px;
+    text-align: center
+}
+.forecast{
+    background-color: azure;
+    border-radius: 8px;
+    text-align: center
+}
+.humidity{
+    background-color: beige;
+    border-radius: 8px;
+    text-align: center
+}
+.highest-temp{
+    margin: 30px;
+    display: flex;
+    justify-content: center
+}
+.lowest-temp{
+    margin: 30px;
+    display: flex;
+    justify-content: center
+}
+.coverage{
+    margin: 30px;
+    display: flex;
+    justify-content: center
+}
+.relative-humidity{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.containers{
+    background-color: rgb(214, 214, 214);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-img-top{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.city{
+ display: flex;
+ justify-content: center;
+}
+
+.input-search{
+    display: flex;
+    justify-content: center;
+}
+
+#input-here{
+    background-color: rgb(214, 214, 214);
+    border: 0ch;
+}
