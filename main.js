@@ -4,7 +4,7 @@ function your_weather(){
    
     const access = async () => {
 
-        const responseloc = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=1d2ff8f43a0360e77507edf6bae62d96`)
+        const responseloc = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=1d2ff8f43a0360e77507edf6bae62d96`)
         const dataloc = await responseloc.json()
         const geoloclat = dataloc[0]['lat']
         const geoloclon = dataloc[0]['lon']
